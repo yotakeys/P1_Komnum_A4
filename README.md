@@ -1,12 +1,12 @@
 # BOLZANO METHOD WITH PYTHON
 
 **Nama anggota:**
-    1. M. Naufal Baihaqi    (5025211103)
-    2. Keyisa Raihan        (5025211002)
-    3. Tsaqif Deniar B.     (5025211151)
-    4. Mavaldi Rizqy        (5025211086)
-    5. Anas Azhar           (5025211043)
-    6. Shaloom David T.     (5025211242)
+1. M. Naufal Baihaqi    (5025211103)
+2. Keyisa Raihan        (5025211002)
+3. Tsaqif Deniar B.     (5025211151)
+4. Mavaldi Rizqy        (5025211086)
+5. Anas Azhar           (5025211043)
+6. Shaloom David T.     (5025211242)
 
 
 ## Penjelasan Metode Bolzano
