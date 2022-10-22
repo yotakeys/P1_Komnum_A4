@@ -46,6 +46,7 @@ class Bolzano():
         for i in range(l, -1, -1):
             if(self.koefList[l-i] > 0 and i != l):
                 print("+", end="")
+
             if(self.koefList[l-i] == 0):
                 continue
             elif(self.koefList[l-i] != 1 and self.koefList[l-i] != -1 and i != 0):
@@ -53,7 +54,7 @@ class Bolzano():
 
             if(i == 1):
                 if(self.koefList[l-i] < 0):
-                    print("-", end="")
+                    print("", end="")
                 print("X", end="")
             elif(i > 1):
                 print("X^", end="")
@@ -129,9 +130,9 @@ class Bolzano():
 
 if __name__ == "__main__":
     BZ = Bolzano(
-        koefList=[1, 2, -4],
-        intervalBawah=-3,
-        intervalAtas=100,
+        koefList=[1, 10, -7, -196],
+        intervalBawah=-6,
+        intervalAtas=6,
         ketelitian=5,
         maxiter=2000
     )
