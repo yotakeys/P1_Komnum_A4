@@ -28,8 +28,8 @@ Taksiran harus dilakukan berulang kali untuk menemukan nilai `Xr` yang menyebabk
 
 Untuk melakukan taksiran selanjutnya, perlu mengubah batas atas `(Xu)` atau batas bawahnya `(Xl)` dengan ketentuan :
 
->jika `f(Xl) * f(Xr) > 0` , maka jadikan `Xu = Xr` dan `Xl` tetap\
->jika `f(Xl) * f(Xr) < 0` , maka jadikan `Xl = Xr` dan `Xu` tetap\
+>jika `f(Xl) * f(Xr) < 0` , maka jadikan `Xu = Xr` dan `Xl` tetap\
+>jika `f(Xl) * f(Xr) > 0` , maka jadikan `Xl = Xr` dan `Xu` tetap\
 >jika `f(Xl) * f(Xr) = 0` , perulangan berhenti dan `akar = Xr`.
 
 hitung kembali taksiran `(Xr)` menggunakan batas atas dan batas bawah terbaru sampai ditemukan kondisi `f(Xr) = 0` atau `f(Xr) mendekati 0` . 
