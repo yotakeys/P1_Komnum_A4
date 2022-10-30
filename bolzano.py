@@ -127,7 +127,7 @@ class Bolzano():
         plt.title("Grafik Bolzano")
         plt.show()
 
-
+# Memanggil kelas bolzano dengan parameter
 if __name__ == "__main__":
     BZ = Bolzano(
         koefList=[1, 10, -7, -196],
@@ -136,11 +136,14 @@ if __name__ == "__main__":
         ketelitian=5,
         maxiter=2000
     )
+# Menampilkan fungsi f(x)
     print("Function :", end=" ")
     BZ.fXToString()
+# Mengecek adanya akar persamaan f(x), jika ada akan ditampilkan
     BZ.findRoot()
     print("Root : ", end=" ")
     print(BZ.root)
     print("Tabel : ")
+# Menampilkan proses metode bolzano dengan tabel dan juga grafik
     BZ.tabel()
     BZ.grafik()
